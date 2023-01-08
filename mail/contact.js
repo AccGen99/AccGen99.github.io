@@ -15,7 +15,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "contact.php",
+                url: "https://github.com/AccGen99/AccGen99.github.io/blob/main/mail/contact.php",
                 type: "POST",
                 data: {
                     name: name,
