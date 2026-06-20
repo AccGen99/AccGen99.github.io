@@ -111,7 +111,7 @@ cv:
         summary: The National Talent Search Examination (NTSE) is a prestigious, government-funded scholarship program in India aiming to identify and financially support exceptionally talented 10th-grade students pursuing higher education in basic sciences, social sciences, medicine, and engineering.
 
     Publications:
-      - title: CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation
+      - title: "CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation"
         authors:
           - Apoorva Vashisth
           - Manav Kulshrestha
@@ -148,7 +148,7 @@ cv:
         summary: We develop a deep reinforcement learning planner that uses dynamic local graphs to efficiently discover and map targets in unknown, obstacle-filled 3D environments under limited resource budgets.
 
 
-      - title: CAtNIPP: Context-Aware Attention-based Network for Informative Path Planning
+      - title: "CAtNIPP: Context-Aware Attention-based Network for Informative Path Planning"
         authors:
           - Yuhong Cao
           - Yizhuo Wang
