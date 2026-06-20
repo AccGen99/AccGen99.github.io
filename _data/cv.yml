@@ -30,7 +30,7 @@ cv:
         studyType: B.Tech + M.Tech
         start_date: 2018
         end_date: 2023
-        score: ""
+        score: "9.03 / 10.00"
         courses: ["Programming and Data Structures", "Partial Differential Equations", "Systems and Control", "Mechatronics"]
         highlights:
           - B.Tech Thesis on "Modeling and Energy Optimization of 3-Wheeled Omnidirectional Mobile Robot (TOMR)"
@@ -42,6 +42,7 @@ cv:
         studyType: PhD
         start_date: 2024
         end_date: Present
+        courses: ["Imitation Learning", "Artificial Intelligence"]
         highlights:
           - Thesis focusing on "Temporal Context for Robust Robot Planning - Integrating History Awareness and Future Prediction"
 
@@ -65,16 +66,16 @@ cv:
           - Proposed a novel dynamic graph approach for adaptive informative motion planning to map targets-of-interest in 3D environment in presence of unknown obstacles.
           - First author work published in IEEE Robotics and Automation Letters
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+      # - company: People's Climate March
+        # position: Lead Organizer
+        # location: Zurich, Switzerland
+        # start_date: 2014-04-01
+        # end_date: 2015-07-01
+        # summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        # highlights:
+          # - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+          # - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: NTSE Scholar
@@ -82,15 +83,32 @@ cv:
           - "National Talent Search Examination"
         date: 2015
         awarder: NCERT, Government of India
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+        url: https://ntse.ncert.gov.in/login.aspx?ReturnUrl=%2f
+        summary: The National Talent Search Examination (NTSE) is a prestigious, government-funded scholarship program in India aiming to identify and financially support exceptionally talented 10th-grade students pursuing higher education in basic sciences, social sciences, medicine, and engineering.
 
-      - title: Max Planck Medal
+      - title: International Internship Scholarship Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "IITKGP Foundation USA"
+        date: 2022
+        awarder: IITKGP Foundation USA
+        url: https://www.iitkgpfoundation.org/article.html?aid=1680
+        summary: The International Internship Award IITKGP is a prestigious scholarship program offered by IIT Kharagpur in association with the IITKGP Foundation of USA. It provides financial support to meritorious undergraduate and graduate students pursuing high-quality research and professional internships at top global institutions.
+
+      - title: Ross Fellowship
+        authors:
+          - "Purdue University"
+        date: 2024
+        awarder: Purdue University
+        url: https://education.purdue.edu/students/graduate-students/graduate-fellowships-and-assistantships/?TSPD_101_R0=08993c5290ab200098a9e587e0778b5cdb92fe2ec55234626a94467c886fd5f047122d7b40cb8db008ba8c2c0614300090aa78f7419a43e2276c7a1cd76b628d3387543ba9fc8a236a099f6c8c85a68fe544202212a6e3d90c0aa9da0c94120c
+        summary: Ross Fellowship is a highly competitive, prestigious recruitment award offered by Purdue University to recruit outstanding Ph.D.-track students.
+
+      - title: Herbold Scholarship
+        authors:
+          - "The Herbold Foundation"
+        date: 2025
+        awarder: The Herbold Foundation
+        url: https://www.bobherbold.com
+        summary: The Herbold Scholarship is a financial award established by the Herbold Foundation—founded by former Microsoft COO Bob Herbold—to support outstanding graduate students in engineering, computer science, and data science.
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
