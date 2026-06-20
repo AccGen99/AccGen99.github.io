@@ -111,29 +111,54 @@ cv:
         summary: The Herbold Scholarship is a financial award established by the Herbold Foundation—founded by former Microsoft COO Bob Herbold—to support outstanding graduate students in engineering, computer science, and data science.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Apoorva Vashisth
+          - Manav Kulshrestha
+          - Pranav Bakshi
+          - Damon Conover
+          - Guillaume Sartoretti
+          - Aniket Bera
+        publisher: European Conference on Computer Vision
+        releaseDate: 2026-06-17
+        url: https://arxiv.org/pdf/2602.20055
+        summary: This work introduces an LLM-driven, constraint-based planning framework that enables robots to rearrange clutter, actively explore, and complete long-horizon navigation tasks with zero-shot generalization.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Apoorva Vashisth
+          - Manav Kulshrestha
+          - Damon Conover
+          - Aniket Bera
+        publisher: IEEE Robotics and Automation Letters
+        releaseDate: 2025-12-16
+        url: https://ieeexplore.ieee.org/abstract/document/11358649
+        summary: We present a scalable deep reinforcement learning framework that enables teams of robots to efficiently map targets in unknown 3D environments while coordinating and avoiding collisions without retraining for different team sizes.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Deep Reinforcement Learning With Dynamic Graphs for Adaptive Informative Path Planning
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Apoorva Vashisth
+          - Julius Ruckin
+          - Federico Magistri
+          - Cyrill Stachniss
+          - Federico Magistri
+        publisher: IEEE Robotics and Automation Letters
+        releaseDate: 2024-06-14
+        url: https://ieeexplore.ieee.org/document/10578000
+        summary: We develop a deep reinforcement learning planner that uses dynamic local graphs to efficiently discover and map targets in unknown, obstacle-filled 3D environments under limited resource budgets.
+
+
+      - title: CAtNIPP: Context-Aware Attention-based Network for Informative Path Planning
+        authors:
+          - Yuhong Cao
+          - Yizhuo Wang
+          - Apoorva Vashisth
+          - Haolin Fan
+          - Guillaume Sartoretti
+        publisher: Conference on Robot Learning
+        releaseDate: 2023-08-30
+        url: https://proceedings.mlr.press/v205/cao23b.html
+        summary: This work introduces a self-attention-based reinforcement learning planner that balances exploration and exploitation to perform fast, adaptive informative path planning under limited resource budgets.
 
     Skills:
       - name: Physics
@@ -142,7 +167,7 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Hindi
         summary: "Native speaker"
 
       - name: English
