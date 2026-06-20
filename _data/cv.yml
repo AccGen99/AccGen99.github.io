@@ -78,21 +78,13 @@ cv:
           # - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: NTSE Scholar
+      - title: Herbold Scholarship
         authors:
-          - "National Talent Search Examination"
-        date: 2015
-        awarder: NCERT, Government of India
-        url: https://ntse.ncert.gov.in/login.aspx?ReturnUrl=%2f
-        summary: The National Talent Search Examination (NTSE) is a prestigious, government-funded scholarship program in India aiming to identify and financially support exceptionally talented 10th-grade students pursuing higher education in basic sciences, social sciences, medicine, and engineering.
-
-      - title: International Internship Scholarship Award
-        authors:
-          - "IITKGP Foundation USA"
-        date: 2022
-        awarder: IITKGP Foundation USA
-        url: https://www.iitkgpfoundation.org/article.html?aid=1680
-        summary: The International Internship Award IITKGP is a prestigious scholarship program offered by IIT Kharagpur in association with the IITKGP Foundation of USA. It provides financial support to meritorious undergraduate and graduate students pursuing high-quality research and professional internships at top global institutions.
+          - "The Herbold Foundation"
+        date: 2025
+        awarder: The Herbold Foundation
+        url: https://www.bobherbold.com
+        summary: The Herbold Scholarship is a financial award established by the Herbold Foundation—founded by former Microsoft COO Bob Herbold—to support outstanding graduate students in engineering, computer science, and data science.
 
       - title: Ross Fellowship
         authors:
@@ -102,13 +94,21 @@ cv:
         url: https://education.purdue.edu/students/graduate-students/graduate-fellowships-and-assistantships/?TSPD_101_R0=08993c5290ab200098a9e587e0778b5cdb92fe2ec55234626a94467c886fd5f047122d7b40cb8db008ba8c2c0614300090aa78f7419a43e2276c7a1cd76b628d3387543ba9fc8a236a099f6c8c85a68fe544202212a6e3d90c0aa9da0c94120c
         summary: Ross Fellowship is a highly competitive, prestigious recruitment award offered by Purdue University to recruit outstanding Ph.D.-track students.
 
-      - title: Herbold Scholarship
+      - title: International Internship Scholarship Award
         authors:
-          - "The Herbold Foundation"
-        date: 2025
-        awarder: The Herbold Foundation
-        url: https://www.bobherbold.com
-        summary: The Herbold Scholarship is a financial award established by the Herbold Foundation—founded by former Microsoft COO Bob Herbold—to support outstanding graduate students in engineering, computer science, and data science.
+          - "IITKGP Foundation USA"
+        date: 2022
+        awarder: IITKGP Foundation USA
+        url: https://www.iitkgpfoundation.org/article.html?aid=1680
+        summary: The International Internship Award IITKGP is a prestigious scholarship program offered by IIT Kharagpur in association with the IITKGP Foundation of USA. It provides financial support to meritorious undergraduate and graduate students pursuing high-quality research and professional internships at top global institutions.
+
+      - title: NTSE Scholar
+        authors:
+          - "National Talent Search Examination"
+        date: 2015
+        awarder: NCERT, Government of India
+        url: https://ntse.ncert.gov.in/login.aspx?ReturnUrl=%2f
+        summary: The National Talent Search Examination (NTSE) is a prestigious, government-funded scholarship program in India aiming to identify and financially support exceptionally talented 10th-grade students pursuing higher education in basic sciences, social sciences, medicine, and engineering.
 
     Publications:
       - title: CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation
