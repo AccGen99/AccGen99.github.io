@@ -308,6 +308,10 @@ Baseline comparison of our approach CoReLIN with other methods across different 
 
 <h2 class="project-section-title">Cite</h2>
 
+<h2 class="project-section-title">Cite</h2>
+
+{% raw %}
+
 <pre class="bibtex-box"><code>@inproceedings{vashisth2026corelin,
   title     = {{CoReLIN}: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation},
   author    = {Vashisth, Apoorva and
@@ -319,3 +323,5 @@ Baseline comparison of our approach CoReLIN with other methods across different 
   booktitle = {European Conference on Computer Vision},
   year      = {2026}
 }</code></pre>
+
+{% endraw %}
