@@ -129,6 +129,27 @@ _styles: |
     color: var(--global-text-color-light);
     }
 
+  .bibtex-box {
+    max-width: 850px;
+    margin: 1.25rem auto 3rem;
+    padding: 1.25rem;
+    overflow-x: auto;
+    border: 1px solid var(--global-divider-color, rgba(127, 127, 127, 0.25));
+    border-radius: 8px;
+    background-color: var(--global-code-bg-color, rgba(127, 127, 127, 0.08));
+    text-align: left;
+    }
+    
+  .bibtex-box code {
+    display: block;
+    padding: 0;
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    white-space: pre;
+    }
+
 ---
 
 <div class="project-authors">
@@ -285,3 +306,16 @@ Overview of our constraint-based planning framework for interactive navigation. 
 Baseline comparison of our approach CoReLIN with other methods across different floorplans (rooms 1 through 10) and varying episode horizons g={10,15,20} (where g is the total number of tasks per episode). Bold indicates best performing method and underline indicates second-best performing approach.
 </p>
 
+<h2 class="project-section-title">Cite</h2>
+
+<pre class="bibtex-box"><code>@inproceedings{vashisth2026corelin,
+  title     = {{CoReLIN}: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation},
+  author    = {Vashisth, Apoorva and
+               Kulshrestha, Manav and
+               Bakshi, Pranav and
+               Conover, Damon and
+               Sartoretti, Guillaume and
+               Bera, Aniket},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2026}
+}</code></pre>
