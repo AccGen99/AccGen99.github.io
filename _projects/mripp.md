@@ -2,7 +2,7 @@
 layout: page
 title: Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning
 description: Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning
-permalink: /projects/corelin/
+permalink: /projects/mripp/
 img: assets/img/12.jpg
 importance: 1
 category: work
