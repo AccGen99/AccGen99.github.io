@@ -1,7 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: CoReLIN
+description: CoReLIN - Constraint-based reasoning for lifelong interactive navigation
+permalink: /projects/corelin/
 img: assets/img/12.jpg
 importance: 1
 category: work
