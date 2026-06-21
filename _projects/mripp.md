@@ -129,6 +129,28 @@ _styles: |
     color: var(--global-text-color-light);
     }
 
+  .bibtex-box {
+    max-width: 850px;
+    margin: 1.25rem auto 3rem;
+    padding: 1.25rem;
+    overflow-x: auto;
+    border: 1px solid var(--global-divider-color, rgba(127, 127, 127, 0.25));
+    border-radius: 8px;
+    background-color: var(--global-code-bg-color, rgba(127, 127, 127, 0.08));
+    text-align: left;
+    }
+    
+  .bibtex-box code {
+    display: block;
+    padding: 0;
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    white-space: pre;
+    }
+
+
 ---
 
 <div class="project-authors">
@@ -249,3 +271,15 @@ Overview of our deep reinforcement learning approach for the multi-robot informa
 Comparison of our approach with other baselines in an urban environment. Our performance metric is the percentage of targets discovered during the episode. The solid lines represent the mean values across 250 trials, while the shaded areas denote the standard deviations.
 </p>
 
+<h2 class="project-section-title">Cite</h2>
+
+<pre class="bibtex-box"><code>@article{vashisth2026scalable,
+  title     = {Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning},
+  author    = {Vashisth, Apoorva and
+               Kulshrestha, Manav and
+               Conover, Damon and
+               Bera, Aniket},
+  journal   = {IEEE Robotics and Automation Letters},
+  year      = {2026},
+  publisher = {IEEE}
+}</code></pre>
