@@ -16,7 +16,7 @@ _styles: |
   .post-title {
     font-weight: 700;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .post-description {
@@ -62,7 +62,82 @@ _styles: |
     height: 100%;
     border: 0;
   }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 auto 2.5rem;
+    }
+    
+  .project-link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 6px;
+    color: var(--global-theme-color);
+    background: transparent;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+    }
+    
+  .project-link-button:hover {
+    color: #ffffff;
+    background-color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+    }
+    
+  .project-link-button i {
+    font-size: 1rem;
+    }
+
 ---
+
+<div class="project-links">
+  <a
+    class="project-link-button"
+    href="{{ '/assets/pdf/vashisth2026move.pdf' | relative_url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open CoReLIN PDF"
+  >
+    <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+    <span>PDF</span>
+  </a>
+
+  <a
+    class="project-link-button"
+    href="https://github.com/IDEAS-Lab-Purdue/CoReLIN/tree/main/DATASET"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open CoReLIN dataset"
+  >
+    <i class="fa-solid fa-database" aria-hidden="true"></i>
+    <span>Dataset</span>
+  </a>
+
+  <a
+    class="project-link-button"
+    href="https://github.com/IDEAS-Lab-Purdue/CoReLIN"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open CoReLIN GitHub repository"
+  >
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    <span>GitHub</span>
+  </a>
+</div>
 
 <div class="project-video">
   <iframe
