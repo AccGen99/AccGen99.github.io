@@ -186,17 +186,6 @@ _styles: |
   <span class="author-separator">&middot;</span>
 
   <a
-    href="https://www.marmotlab.org/bio.html"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Guillaume Sartoretti's profile"
-  >
-    Guillaume Sartoretti
-  </a>
-
-  <span class="author-separator">&middot;</span>
-
-  <a
     href="https://www.cs.purdue.edu/homes/ab/"
     target="_blank"
     rel="noopener noreferrer"
