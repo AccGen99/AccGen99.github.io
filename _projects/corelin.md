@@ -232,10 +232,10 @@ _styles: |
 
 <div class="project-video">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/zeKxXmRHS-A"
+    src="https://www.youtube-nocookie.com/embed/zeKxXmRHS-A?autoplay=1&playsinline=1"
     title="CoReLIN real-robot experiment video"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    loading="eager"
+    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
     allowfullscreen
   ></iframe>
 </div>
