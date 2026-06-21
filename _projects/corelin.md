@@ -102,7 +102,98 @@ _styles: |
     font-size: 1rem;
     }
 
+  .project-authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 0.45rem;
+    row-gap: 0.3rem;
+    margin: -0.25rem auto 1.25rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    }
+    
+  .project-authors a {
+    color: var(--global-theme-color);
+    font-weight: 400;
+    text-decoration: none;
+    }
+    
+  .project-authors a:hover {
+    text-decoration: underline;
+    }
+    
+  .author-separator {
+    color: var(--global-text-color-light);
+    }
+
 ---
+
+<div class="project-authors">
+  <a
+    href="{{ '/' | relative_url }}"
+    aria-label="Apoorva Vashisth's profile"
+  >
+    Apoorva Vashisth
+  </a>
+
+  <span class="author-separator">&middot;</span>
+
+  <a
+    href="https://manavkulshrestha.github.io/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Manav Kulshrestha's profile"
+  >
+    Manav Kulshrestha
+  </a>
+
+  <span class="author-separator">&middot;</span>
+
+  <a
+    href="https://scholar.google.com/citations?user=OPos_h0AAAAJ&hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Pranav Bakshi's profile"
+  >
+    Pranav Bakshi
+  </a>
+
+  <span class="author-separator">&middot;</span>
+
+  <a
+    href="https://scholar.google.com/citations?user=laN6vmAAAAAJ&hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Damon Conover's profile"
+  >
+    Damon Conover
+  </a>
+
+  <span class="author-separator">&middot;</span>
+
+  <a
+    href="https://www.marmotlab.org/bio.html"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Guillaume Sartoretti's profile"
+  >
+    Guillaume Sartoretti
+  </a>
+
+  <span class="author-separator">&middot;</span>
+
+  <a
+    href="https://www.cs.purdue.edu/homes/ab/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Aniket Bera's profile"
+  >
+    Aniket Bera
+  </a>
+</div>
 
 <div class="project-links">
   <a
