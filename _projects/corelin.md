@@ -7,76 +7,115 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+
+_styles: |
+  .post-header {
+    text-align: center;
+  }
+
+  .post-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .post-description {
+    display: none;
+  }
+
+  .project-section-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 2.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .project-text {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+  }
+
+  .project-image {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 1.5rem auto 2rem;
+    border-radius: 8px;
+  }
+
+  .project-video {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    aspect-ratio: 16 / 9;
+    margin: 2.5rem auto;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .project-video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h2 class="project-section-title">Abstract</h2>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p class="project-text">
+Robot navigation typically assumes an obstacle-free path
+exists between start and goal. In real environments, however, clutter
+may block all routes. We introduce Lifelong Interactive Navigation,
+where a mobile robot with manipulation capabilities must move objects
+to forge paths and complete sequential object-placement tasks. Because
+environment modifications persist, decisions impact future navigability
+and task difficulty. We propose CoReLIN, an LLM-driven constraint-
+based reasoning framework with active perception. CoReLIN reasons
+over a structured scene graph to decide which objects to relocate, where
+to place them, and where to explore next. A standard motion planner ex-
+ecutes reliable navigation and manipulation primitives. To evaluate long-
+horizon behavior, we introduce 2 new metrics - Long-term Efficiency
+Score (LES), a unified metric capturing success, execution efficiency,
+environment optimality, captured by Price of Clutter. In ProcTHOR-
+10k, CoReLIN outperforms best baseline by 16% under standard metrics
+and LES, and transfers to real-world hardware.
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h2 class="project-section-title">Overview</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<img
+  class="project-image"
+  src="{{ '/assets/pdf/corelin_overview.pdf' | relative_url }}"
+  alt="Overview of the CoReLIN framework"
+/>
+
+<p class="project-text">
+Overview of our constraint-based planning framework for interactive navigation. At each timestep, our agent receives observations from the environment, which are utilized by our perception module to update the scene graph. Our scene graph contains the observed objects of the environment as nodes and the blocking relation among them as edges. Each node has its own attributes, which provide additional navigability and manipulability context to the LLM. The LLM then decides whether to explore the environment further to collect additional information or to attempt to complete the given task based on the scene graph content and the environment constraints.
+</p>
+
+<h2 class="project-section-title">Results</h2>
+
+<img
+  class="project-image"
+  src="{{ '/assets/img/corelin_results.png' | relative_url }}"
+  alt="Experimental results for CoReLIN"
+/>
+
+<p class="project-text">
+Baseline comparison of our approach CoReLIN with other methods across different floorplans (rooms 1 through 10) and varying episode horizons g={10,15,20} (where g is the total number of tasks per episode). Bold indicates best performing method and underline indicates second-best performing approach.
+</p>
+
+<div class="project-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/zeKxXmRHS-A"
+    title="CoReLIN real-robot experiment video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
