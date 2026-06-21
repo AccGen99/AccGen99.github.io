@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CoReLIN
+title: CoReLIN - Constraint-based reasoning for lifelong interactive navigation
 description: CoReLIN - Constraint-based reasoning for lifelong interactive navigation
 permalink: /projects/corelin/
 img: assets/img/12.jpg
@@ -64,6 +64,16 @@ _styles: |
   }
 ---
 
+<div class="project-video">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/zeKxXmRHS-A"
+    title="CoReLIN real-robot experiment video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
+
 <h2 class="project-section-title">Abstract</h2>
 
 <p class="project-text">
@@ -108,14 +118,4 @@ Overview of our constraint-based planning framework for interactive navigation. 
 <p class="project-text">
 Baseline comparison of our approach CoReLIN with other methods across different floorplans (rooms 1 through 10) and varying episode horizons g={10,15,20} (where g is the total number of tasks per episode). Bold indicates best performing method and underline indicates second-best performing approach.
 </p>
-
-<div class="project-video">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/zeKxXmRHS-A"
-    title="CoReLIN real-robot experiment video"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
-</div>
 
