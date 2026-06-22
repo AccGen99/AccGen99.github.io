@@ -17,7 +17,7 @@ profiles:
       <p>Hall of Data Science and AI</p>
       <p>Purdue University</p>
       <p>Indiana, USA 47907</p>
-  - align: left
+  - align: right
     image: guillaume_sartoretti.jpg
     content: collaborator_guillaume_sartoretti.md
     image_circular: false # crops the image to make it circular
@@ -25,7 +25,7 @@ profiles:
       <p>College of Design and Engineering</p>
       <p>National University of Singapore</p>
       <p>Singapore, SG 119077</p>
-  - align: left
+  - align: right
     image: ak_samantaray.jpg
     content: collaborator_ak_samantaray.md
     image_circular: false # crops the image to make it circular
@@ -33,7 +33,7 @@ profiles:
       <p>Department of Mechanical Engineering</p>
       <p>Indian Institute of Technology, Kharagpur</p>
       <p>West Bengal, IN 721302</p>
-  - align: left
+  - align: right
     image: cyrill_stachniss.jpg
     content: collaborator_cyrill_stachniss.md
     image_circular: false # crops the image to make it circular
@@ -41,7 +41,7 @@ profiles:
       <p>Photogrammetry, IGG</p>
       <p>University of Bonn</p>
       <p>Bonn, DE 53113</p>
-  - align: left
+  - align: right
     image: marija_popovic.jpg
     content: collaborator_marija_popovic.md
     image_circular: false # crops the image to make it circular
