@@ -2,14 +2,12 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Classes taught and assisted at.
+description: Courses I have taught or supported at Purdue University.
 nav: true
 nav_order: 6
-calendar: true
+calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+Below are courses for which I have served as an instructor or teaching assistant.
 
 {% include courses.liquid %}
