@@ -8,11 +8,11 @@ cv:
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: AVas55709
     - network: GitHub
-      username: example
+      username: AccGen99
     - network: LinkedIn
-      username: example
+      username: ApoorvaVashisth
 
   address:
     street: 475 Stadium Mall Drive
@@ -66,6 +66,15 @@ cv:
           - First author work published in IEEE Robotics and Automation Letters
 
     Volunteer:
+      # - company: National Cadet Corps
+      - position: Reviewer
+        start_date: 2022-08-01
+        end_date: Present
+        summary: collectively reviewed 30 manuscripts for NeurIPS, RSS, ICRA, RAL, IROS, IEEE TASE and MRS.
+        # highlights:
+        #   - "Completed the Winter Annual Training Camp (ATC) at IIT Kharagpur - a mandatory, intensive 12-day military-style training camp held on campus during the winter vacation."
+        #   - "Cadet Corporal (CPL) is a selected Non-Commissioned Officer (NCO) leadership rank awarded to second-year NCC cadets who have demonstrated superior discipline, military proficiency, and the capability to command a section of junior cadets."
+
       - company: National Cadet Corps
         position: Cadet Corporal
         location: Kharagpur, India
