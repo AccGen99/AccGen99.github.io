@@ -308,8 +308,6 @@ Baseline comparison of our approach CoReLIN with other methods across different 
 
 <h2 class="project-section-title">Cite</h2>
 
-<h2 class="project-section-title">Cite</h2>
-
 {% raw %}
 
 <pre class="bibtex-box"><code>@inproceedings{vashisth2026corelin,
