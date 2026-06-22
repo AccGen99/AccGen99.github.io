@@ -3,7 +3,7 @@ github_users: []
 repo_description_lines_max: 3
 
 github_repos:
-  - IDEAS-Lab-Purdue/CoReLeeIN
+  - IDEAS-Lab-Purdue/CoReLIN
   - AccGen99/marl_ipp
   - dmar-bonn/ipp-rl-3d
   - marmotlab/CAtNIPP
