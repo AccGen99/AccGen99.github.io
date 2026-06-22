@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: aniket_bera.jpg
-    content: aniker_bera.md
+    content: collaborator_aniker_bera.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Hall of Data Science and AI</p>
@@ -19,7 +19,7 @@ profiles:
       <p>Indiana, USA 47907</p>
   - align: left
     image: guillaume_sartoretti.jpg
-    content: guillaume_sartoretti.md
+    content: collaborator_guillaume_sartoretti.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>College of Design and Engineering</p>
@@ -27,7 +27,7 @@ profiles:
       <p>Singapore, SG 119077</p>
   - align: left
     image: ak_samantaray.jpg
-    content: ak_samantaray.md
+    content: collaborator_ak_samantaray.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Department of Mechanical Engineering</p>
@@ -35,7 +35,7 @@ profiles:
       <p>West Bengal, IN 721302</p>
   - align: left
     image: cyrill_stachniss.jpg
-    content: cyrill_stachniss.md
+    content: collaborator_cyrill_stachniss.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Photogrammetry, IGG</p>
@@ -43,7 +43,7 @@ profiles:
       <p>Bonn, DE 53113</p>
   - align: left
     image: marija_popovic.jpg
-    content: marija_popovic.md
+    content: collaborator_marija_popovic.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Aerospace Engineering</p>
