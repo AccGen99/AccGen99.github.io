@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student at <a href="https://www.purdue.edu">Purdue University, USA</a>
 
