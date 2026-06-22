@@ -210,10 +210,10 @@ _styles: |
 <div class="project-links">
   <a
     class="project-link-button"
-    href="{{ '/assets/pdf/vashisth2026scalable.pdf' | relative_url }}"
+    href="{{ '/assets/pdf/vashisth2024deep.pdf' | relative_url }}"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Open MRIPP PDF"
+    aria-label="Open PDF"
   >
     <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     <span>PDF</span>
@@ -221,7 +221,7 @@ _styles: |
 
   <a
     class="project-link-button"
-    href="https://github.com/AccGen99/marl_ipp"
+    href="https://github.com/dmar-bonn/ipp-rl-3d"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Open GitHub repository"
@@ -233,7 +233,7 @@ _styles: |
 
 <div class="project-video">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/VxzqdquyzqY?autoplay=1&playsinline=1"
+    src="https://www.youtube-nocookie.com/embed/qfCqNXtt2rU?autoplay=1&playsinline=1"
     title="Overview of our approach along with simulation videos and real robot experiments"
     loading="eager"
     allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
@@ -244,43 +244,56 @@ _styles: |
 <h2 class="project-section-title">Abstract</h2>
 
 <p class="project-text">
-Autonomous robots are widely utilized for mapping and exploration tasks due to their cost-effectiveness. Multi-robot systems offer scalability and efficiency, especially in terms of the number of robots deployed in more complex environments. These tasks belong to the set of Multi-Robot Informative Path Planning (MRIPP) problems. In this paper, we propose a deep reinforcement learning approach for the MRIPP problem.
-We aim to maximize the number of discovered stationary targets in an unknown 3D environment while operating under resource constraints (such as path length). Here, each robot aims to maximize discovered targets, avoid unknown static obstacles, and prevent inter-robot collisions while operating under communication and resource constraints. We utilize the centralized training and decentralized execution paradigm to train a single policy neural network. A key aspect of our approach is our coordination graph that prioritizes visiting regions not yet explored by other robots. Our learned policy can be copied onto any number of robots for deployment in more complex environments not seen during training. Our approach outperforms state-of-the-art approaches by at least 26.2% in terms of the number of discovered targets while requiring a planning time of less than 2 sec per step. We present results for more complex environments with up to 64 robots and compare success rates against baseline planners.
+Autonomous robots are often employed for data collection due to their efficiency and low labour costs. A key task in robotic data acquisition is planning paths through an initially unknown environment to collect observations given platform-specific resource constraints, such as limited battery life. Adaptive online path planning in 3D environments is challenging due to the large set of valid actions and the presence of unknown occlusions. To address these issues, we propose a novel deep reinforcement learning approach for adaptively replanning robot paths to map targets of interest in unknown 3D environments. A key aspect of our approach is a dynamically constructed graph that restricts planning actions local to the robot, allowing us to react to newly discovered static obstacles and targets of interest. For replanning, we propose a new reward function that balances between exploring the unknown environment and exploiting online-discovered targets of interest. Our experiments show that our method enables more efficient target discovery compared to state-of-the-art learning and non-learning baselines. We also showcase our approach for orchard monitoring using an unmanned aerial vehicle in a photorealistic simulator.
 </p>
 
 <h2 class="project-section-title">Overview</h2>
 
 <img
   class="project-image"
-  src="{{ '/assets/pdf/mripp_overview.pdf' | relative_url }}"
+  src="{{ '/assets/img/dynagr_overview.png' | relative_url }}"
   alt="Overview of our approach"
 />
 
 <p class="project-text">
-Overview of our deep reinforcement learning approach for the multi-robot informative path planning problem. At each time-step, our approach samples collision-free candidate actions in the robot's local region. Our coordination graph associates each candidate action with a utility value, the uncertainty of the utility value, and the exploration features modeling the regions visited by other robots. Our policy network relies on these features to output the robot's state value and the next action to execute, leading to the generation of reward and observations from the environment. Here, the black arrows indicate the robot control loop, green arrows and green boxes are the variables stored in the experience buffer for on-policy training of our policy network. 
+At each mission timestep t, our approach samples collision-free waypoints in the robot’s local environment. These waypoints, with considered yaw directions, generate action nodes. Each action node is associated with utility value and uncertainty of the utility value, regressed from the Gaussian process, to generate the dynamic graph. Our actor-critic network uses the dynamic graph to output the robot’s state value and predicts the next action to execute, which generates a reward and observations from the environment. Blue arrows indicate the robot control loop and green indicate variables stored in the experience buffer to train the actor-critic network via on-policy learning.
 </p>
 
 <h2 class="project-section-title">Results</h2>
 
 <img
   class="project-image"
-  src="{{ '/assets/pdf/mripp_results.pdf' | relative_url }}"
+  src="{{ '/assets/img/dynagr_base_comp.png' | relative_url }}"
   alt="Experimental results for our approach"
 />
 
 <p class="project-text">
-Comparison of our approach with other baselines in an urban environment. Our performance metric is the percentage of targets discovered during the episode. The solid lines represent the mean values across 250 trials, while the shaded areas denote the standard deviations.
+Comparison of our approach against baselines in a UAV-based fruit monitoring scenario. Solid lines indicate means over 500 trials and shaded regions show standard deviations. In our approach, using our exploration-exploitation reward function with a dynamic graph action space for reinforcement learning enables more efficiently discovering targets of interest (fruit) during a mission.
+</p>
+
+<img
+  class="project-image"
+  src="{{ '/assets/img/dynagr_sim_img.png' | relative_url }}"
+  alt="Simulation experiment visualization for our approach"
+/>
+
+<p class="project-text">
+Our reinforcement learning approach for adaptive informative path planning applied in an orchard monitoring scenario using an unmanned aerial vehicle (UAV). Blue squares are candidate waypoints output by our planner, while the green square is the chosen next waypoint to visit. The inset windows show the onboard camera view and semantic segmentation for discovering apples. By planning collision-free paths for the UAV online, we maximise the number of apple fruits discovered under flight-length constraints.
 </p>
 
 <h2 class="project-section-title">Cite</h2>
 
-<pre class="bibtex-box"><code>@article{vashisth2026scalable,
-  title     = {Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning},
+<pre class="bibtex-box"><code>@article{vashisth2024deep,
+  title     = {Deep reinforcement learning with dynamic graphs for adaptive informative path planning},
   author    = {Vashisth, Apoorva and
-               Kulshrestha, Manav and
-               Conover, Damon and
-               Bera, Aniket},
+               R{\"u}ckin, Julius and
+               Magistri, Federico and
+               Stachniss, Cyrill and
+               Popovi{\'c}, Marija},
   journal   = {IEEE Robotics and Automation Letters},
-  year      = {2026},
+  year      = {2024},
+  volume    = {9},
+  number    = {9},
+  pages     = {7747--7754},
   publisher = {IEEE}
 }</code></pre>
