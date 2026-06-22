@@ -23,19 +23,6 @@ cv:
 
   sections:
     Education:
-      - institution: Indian Institute of Technology, Kharagpur
-        location: West Bengal, India
-        url: www.iitkgp.ac.in
-        area: Mechanical Engineering
-        studyType: B.Tech + M.Tech
-        start_date: 2018
-        end_date: 2023
-        score: "9.03 / 10.00"
-        courses: ["Programming and Data Structures", "Partial Differential Equations", "Systems and Control", "Mechatronics"]
-        highlights:
-          - B.Tech Thesis on "Modeling and Energy Optimization of 3-Wheeled Omnidirectional Mobile Robot (TOMR)"
-          - M.Tech Thesis on "Voronoi Partitioning Based Multi-agent Path Planning"
-
       - institution: Purdue University
         location: Indiana, USA
         area: Computer Science
@@ -45,6 +32,18 @@ cv:
         courses: ["Imitation Learning", "Artificial Intelligence"]
         highlights:
           - Thesis focusing on "Temporal Context for Robust Robot Planning - Integrating History Awareness and Future Prediction"
+
+      - institution: Indian Institute of Technology, Kharagpur
+        location: West Bengal, India
+        # url: www.iitkgp.ac.in
+        area: Mechanical Engineering
+        studyType: B.Tech & M.Tech
+        start_date: 2018
+        end_date: 2023
+        courses: ["Programming and Data Structures", "Partial Differential Equations", "Systems and Control", "Mechatronics"]
+        highlights:
+          - B.Tech Thesis on "Modeling and Energy Optimization of 3-Wheeled Omnidirectional Mobile Robot (TOMR)"
+          - M.Tech Thesis on "Voronoi Partitioning Based Multi-agent Path Planning"
 
     Experience:
       - company: Multi Agent Robotic Motion Lab, National University of Singapore
