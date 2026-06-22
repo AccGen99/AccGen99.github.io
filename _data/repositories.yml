@@ -1,14 +1,9 @@
-github_users:
-  - torvalds
-  - alshedivat
+github_users: []
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - IDEAS-Lab-Purdue/CoReLIN
+  - AccGen99/marl_ipp
+  - dmar-bonn/ipp-rl-3d
+  - marmotlab/CAtNIPP
