@@ -1,10 +1,9 @@
-github_users: 
-  - AccGen99
+github_users: []
 
 repo_description_lines_max: 3
 
 github_repos:
-  - IDEAS-Lab-Purdue/CoReLIN
+  - IDEAS-Lab-Purdue/CoReLeeIN
   - AccGen99/marl_ipp
   - dmar-bonn/ipp-rl-3d
   - marmotlab/CAtNIPP
