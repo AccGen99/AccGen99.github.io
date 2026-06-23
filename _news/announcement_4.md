@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper titled <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10578000" target="_blank"> <u>"Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning"</u></a> has been accepted at the IEEE Robotics and Automation Letters (IEEE RA-L 2025) 🎉
+Our paper titled <a href="https://accgen99.github.io/projects/mripp/" target="_blank"> <u>"Scalable Multi-Robot Informative Path Planning for Target Mapping via Deep Reinforcement Learning"</u></a> has been accepted at the IEEE Robotics and Automation Letters (IEEE RA-L 2025) 🎉
