@@ -230,7 +230,7 @@ _styles: |
 
   <a
     class="project-link-button"
-    href="https://github.com/IDEAS-Lab-Purdue/CoReLIN/tree/main/DATASET"
+    href="https://github.com/IDEAS-Lab-Purdue/CoReLIN/tree/main/dataset"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Open CoReLIN dataset"
