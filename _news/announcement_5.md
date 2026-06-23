@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper titled "CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation" has been accepted at the European Conference on Computer Vision (ECCV 2026) 🎉
+Our paper titled <a href="https://accgen99.github.io/projects/corelin/" target="_blank"> <u>"CoReLIN: Constraint-based Reasoning for Zero-shot Lifelong Interactive Navigation"</u></a> has been accepted at the European Conference on Computer Vision (ECCV 2026) 🎉
