@@ -1,0 +1,16 @@
+{% assign repo_parts = include.repository | split: '/' %}
+{% assign repo_owner = repo_parts[0] %}
+{% assign repo_name = repo_parts[1] %}
+
+<div class="repo p-2">
+  <a
+    href="https://github.com/{{ include.repository }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="d-block border rounded p-3 text-decoration-none"
+  >
+    <strong>{{ repo_name }}</strong>
+    <br>
+    <small>{{ repo_owner }}/{{ repo_name }}</small>
+  </a>
+</div>
