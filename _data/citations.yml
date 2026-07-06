@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-06'
 papers:
   _8HGrsAAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -14,6 +14,6 @@ papers:
     title: 'To Move or Not to Move: Constraint-based Planning Enables Zero-Shot Generalization for Interactive Navigation'
     year: '2026'
   _8HGrsAAAAAJ:u-x6o8ySG0sC:
-    citations: 54
+    citations: 56
     title: 'CAtNIPP: Context-Aware Attention-based Network for Informative Path Planning'
     year: '2023'
