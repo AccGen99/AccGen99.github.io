@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CoReLIN - Constraint-based reasoning for lifelong interactive navigation
-description: CoReLIN - Constraint-based reasoning for lifelong interactive navigation
+title: CoReLIN - Constraint-based Reasoning for Zero-Shot Lifelong Interactive Navigation
+description: CoReLIN - Constraint-based Reasoning for Zero-Shot Lifelong Interactive Navigation
 permalink: /projects/corelin/
 img: assets/img/12.jpg
 importance: 1
